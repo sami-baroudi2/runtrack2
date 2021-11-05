@@ -22,6 +22,11 @@
 </body>
 </html>
 <?php
-echo $_GET['pseudo'] . "</br>" . $_GET['password'];
+$_GET= ['pseudo', 'password'];
+                $variable = 0 ;
+    for ( $i = 0 ; isset($_GET[$i]) ; $i++){
+        $variable++;
 
+}
+echo $variable;
 ?>
