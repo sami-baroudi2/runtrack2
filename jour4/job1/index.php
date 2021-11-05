@@ -28,5 +28,5 @@ $_GET= ['pseudo', 'password'];
         $variable++;
 
 }
-echo $variable;
+echo 'Le nombre d\'arguments est :'.$variable;
 ?>
