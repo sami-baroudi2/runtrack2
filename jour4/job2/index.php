@@ -30,6 +30,7 @@ $date = $_GET['date'];
         <input type="date" name="date"> </br>
 
         <input type="submit" name="Envoyer">
+    </form>
 
 
 
@@ -50,7 +51,7 @@ $date = $_GET['date'];
                 <td><?php echo 'date' ?></td>
                 <td><?php echo $date ?></td>
             </tr>       
-
+        </table>
     
 </body>
 </html>

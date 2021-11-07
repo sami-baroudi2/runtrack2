@@ -33,6 +33,7 @@ if (isset($_POST['date'])) {
         <input type="date" name="date"> </br>
 
         <input type="submit" name="Envoyer">
+    </form>
 
 
 
