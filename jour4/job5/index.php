@@ -1,5 +1,5 @@
 <?php 
-//Pourquoi pas GET ? Tout simplement parce que ça s'affiche dans la barre URL et que niveau sécurité c'est top-top... 
+//Pourquoi pas GET ? Tout simplement parce que ça s'affiche dans la barre URL et que niveau sécurité c'est pas top-top... 
 isset($_POST['submit']);
 
 if ($_POST['pseudo'] == 'John') {
@@ -19,7 +19,6 @@ else {
     echo 'Votre pire
     cauchemar';
     }
-
 ?>
 <!DOCTYPE html>
 <html>
