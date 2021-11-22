@@ -14,7 +14,6 @@ largeur =10 et hauteur = 5, l’algorithme affiche
                     |        |
                     |________|*/
 
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,11 +26,21 @@ largeur =10 et hauteur = 5, l’algorithme affiche
 <body>
     <form action="index.php" method="POST">
 
-    <label for="largeur">Largeur</label>
-    <input type="text" name="largeur"> </br></br>
-    <label for="hauteur">Hauteur</label>
-    <input type="text" name="hauteur">
-    <input type="submit" name="submit">
-    
+        <label for="largeur">Largeur</label>
+        <input type="text" name="largeur"> </br></br>
+        <label for="hauteur">Hauteur</label>
+        <input type="text" name="hauteur">
+        <input type="submit" name="submit">
+    </form>
+
+
+    <table>
+       
+<?php
+
+?>
+
+
+
+    </table>
 </body>
-</html>
